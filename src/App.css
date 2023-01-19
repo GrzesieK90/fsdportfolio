@@ -51,7 +51,7 @@
   .boxU {
     margin: auto;
     text-align: center;
-    width: 80vw;
+    width: 86vw;
     border-radius: 25px;
     padding: 10px;
     height: 85vh;
@@ -66,7 +66,7 @@
   .box1 {background: rgba(0, 0, 0, .5); margin-top: 7vh}
   .box2 {background: rgb(255, 255, 255, .5); margin-top: 2vh; height: 90vh}
   .box3 {background: rgba(0, 0, 0, .5); margin-top: 2vh; height: 90vh;}
-  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh}
+  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh; height: 90vh;}
   .box5 {background: rgba(0, 0, 0, .5)}
 }
 
