@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fsdportfolio/static/css/main.9e1c1c78.css",
+    "main.js": "/fsdportfolio/static/js/main.439b9850.js",
+    "static/js/787.e246076a.chunk.js": "/fsdportfolio/static/js/787.e246076a.chunk.js",
+    "static/media/map.png": "/fsdportfolio/static/media/map.85e701be91bcb70e35f8.png",
+    "static/media/photo.jpg": "/fsdportfolio/static/media/photo.2cb081a98ec79103d455.jpg",
+    "static/media/trlFin.png": "/fsdportfolio/static/media/trlFin.0c3a4d5380a4b72540f3.png",
+    "static/media/smartbrain.png": "/fsdportfolio/static/media/smartbrain.416326437ff43f19a787.png",
+    "static/media/vfp.png": "/fsdportfolio/static/media/vfp.e898da055c6362034b02.png",
+    "static/media/KittyF.png": "/fsdportfolio/static/media/KittyF.ef6106d5362b702e65b9.png",
+    "static/media/pokedexApp.png": "/fsdportfolio/static/media/pokedexApp.0104ce91746491ee746a.png",
+    "static/media/aoc.png": "/fsdportfolio/static/media/aoc.727a133ad075fc731547.png",
+    "static/media/bgGenerator.png": "/fsdportfolio/static/media/bgGenerator.d0e59d4a75febfc2df98.png",
+    "static/media/calc.png": "/fsdportfolio/static/media/calc.70358c47b2b2e17a33ac.png",
+    "static/media/Logo.png": "/fsdportfolio/static/media/Logo.cb1a2446f84c6da3f2dc.png",
+    "static/media/postgres.png": "/fsdportfolio/static/media/postgres.4c6438e3f05119691bb2.png",
+    "index.html": "/fsdportfolio/index.html",
+    "main.9e1c1c78.css.map": "/fsdportfolio/static/css/main.9e1c1c78.css.map",
+    "main.439b9850.js.map": "/fsdportfolio/static/js/main.439b9850.js.map",
+    "787.e246076a.chunk.js.map": "/fsdportfolio/static/js/787.e246076a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e1c1c78.css",
+    "static/js/main.439b9850.js"
+  ]
+}
