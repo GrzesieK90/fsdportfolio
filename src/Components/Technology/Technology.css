@@ -1,0 +1,130 @@
+@media (min-width: 1024px) {
+    .inside {
+        display: inline-block;
+    }
+
+    .logo {
+        padding: 10px;
+        stop-opacity: inherit;
+    }
+
+    .AMS {
+        display: inline-flex;
+        height: 165px;
+    }
+
+    .icons {
+        width: 38vw;
+        float: left;
+    }
+
+    .skills {
+        margin-top: 5vh;
+        float: right;
+        width: 38vw;
+        margin-right: 2vw;
+    }
+
+    .h1t {
+        margin-top: 5vh;
+    }
+
+    .t1 {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 280px) {
+    .AMS {
+        display: inline-flex;
+        height: 2vh;
+    }
+
+    .logo {
+        height: 8vh;
+    }
+
+    .skills {
+        width: 38vw;
+        margin-right: 2vw;
+    }
+
+    .h1t {
+        margin-bottom: 10px;
+    }
+
+    .skills {
+        margin-top: 1vh;
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 539px) {
+    .AMS {
+        display: inline-flex;
+        height: 2vh;
+    }
+
+    .logo {
+        height: 8vh;
+    }
+
+    .skills {
+        width: 38vw;
+        margin-right: 2vw;
+    }
+
+    .h1t {
+        margin-bottom: 10px;
+    }
+
+    .skills {
+        margin-top: 1vh;
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+    .AMS {
+        display: inline-flex;
+        height: 2vh;
+    }
+
+    .logo {
+        height: 12vh;
+    }
+
+    .skills {
+        width: 38vw;
+        margin-right: 2vw;
+    }
+
+    .h1t {
+        margin-bottom: 10px;
+    }
+
+    .skills {
+        margin-top: 1vh;
+        width: 80vw;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .AMS {
+        display: inline-flex;
+        height: 2vh;
+    }
+
+    .logo {
+        height: 14vh;
+    }
+
+    .skills {
+        float: right;
+        width: 36vw;
+    }
+
+    .h1t {
+        margin-bottom: 10px;
+    }
+}

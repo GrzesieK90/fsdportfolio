@@ -1,0 +1,182 @@
+.sp {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@media (min-width: 1281px) {
+  .App {
+    text-align: center;
+    color: white;
+  }
+
+  /* #container {
+    width: 99vw;
+    height: 5vh;
+    background: grey no-repeat fixed;
+    background-size: cover;
+  } */
+
+  .btnHow {
+    box-shadow: 1px 1px 1px rgb(175, 175, 175),
+    2px 2px 1px rgb(175, 175, 175),
+    3px 3px 1px rgb(175, 175, 175),
+    4px 4px 1px rgb(175, 175, 175),
+    5px 5px 1px rgb(175, 175, 175),
+    6px 6px 1px rgb(175, 175, 175),
+    7px 7px 1px rgb(175, 175, 175),
+    8px 8px 1px rgb(175, 175, 175),
+    9px 9px 1px rgb(175, 175, 175),
+    10px 10px 1px rgb(175, 175, 175);
+    position: relative;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .btnHow:hover {
+    box-shadow: 1px 1px 1px rgb(99, 99, 99),
+    2px 2px 1px rgb(99, 99, 99),
+    3px 3px 1px rgb(99, 99, 99),
+    4px 4px 1px rgb(99, 99, 99),
+    5px 5px 1px rgb(99, 99, 99);
+    right: -5px;
+    top: 5px;
+  }
+
+  .page {
+    height: 95vh;
+    width: 100vw;
+  }
+
+  .boxU {
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+    border-radius: 25px;
+    padding: 10px;
+    height: 85vh;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 20px white,
+    0px 0px 40px white,
+    0px 0px 60px white,
+    0px 0px 80px white,
+    0px 0px 100px white;
+  }
+
+  .box1 {background: rgba(0, 0, 0, .5); margin-top: 7vh}
+  .box2 {background: rgb(255, 255, 255, .5); margin-top: 2vh}
+  .box3 {background: rgba(0, 0, 0, .5); margin-top: 2vh}
+  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh}
+  .box5 {background: rgba(0, 0, 0, .5)}
+}
+
+@media (max-width: 1280px) {
+  .App {
+    text-align: center;
+    color: white;
+  }
+
+  /* #container {
+    width: 99vw;
+    height: 5vh;
+    background: grey no-repeat fixed;
+    background-size: cover;
+  } */
+
+  .btnHow {
+    box-shadow: 1px 1px 1px rgb(175, 175, 175),
+    2px 2px 1px rgb(175, 175, 175),
+    3px 3px 1px rgb(175, 175, 175),
+    4px 4px 1px rgb(175, 175, 175),
+    5px 5px 1px rgb(175, 175, 175),
+    6px 6px 1px rgb(175, 175, 175),
+    7px 7px 1px rgb(175, 175, 175),
+    8px 8px 1px rgb(175, 175, 175),
+    9px 9px 1px rgb(175, 175, 175),
+    10px 10px 1px rgb(175, 175, 175);
+    position: relative;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .btnHow:hover {
+    box-shadow: 1px 1px 1px rgb(99, 99, 99),
+    2px 2px 1px rgb(99, 99, 99),
+    3px 3px 1px rgb(99, 99, 99),
+    4px 4px 1px rgb(99, 99, 99),
+    5px 5px 1px rgb(99, 99, 99);
+    right: -5px;
+    top: 5px;
+  }
+
+  .page {
+    height: 95vh;
+    width: 100vw;
+  }
+
+  .boxU {
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+    border-radius: 20px;
+    padding: 10px;
+    height: 85vh;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 20px white,
+    0px 0px 40px white,
+    0px 0px 60px white,
+    0px 0px 80px white,
+    0px 0px 100px white;
+  }
+
+  .box1 {background: rgba(0, 0, 0, .5); margin-top: 7vh}
+  .box2 {background: rgb(255, 255, 255, .5); margin-top: 2vh; height: 165vh;}
+  .box3 {background: rgba(0, 0, 0, .5); margin-top: 2vh; height: 140vh;}
+  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh; height: 100vh}
+  .box5 {background: rgba(0, 0, 0, .5)}
+
+  .page2 {height: 175vh}
+  .page3 {height: 150vh;}
+  .page4 {height: 110vh;}
+}
+
+@media screen and (max-width: 280px) {
+  .box2 {height: 175vh;}
+  .page2 {height: 185vh}
+  .box3 {height: 135vh;}
+  .page3 {height: 145vh;}
+  .box4 {height: 110vh;}
+  .page4 {height: 120vh;}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 540px) {
+  .box2 {background: rgb(255, 255, 255, .5); margin-top: 2vh; height: 115vh;}
+  .page2 {height: 125vh}
+}
+
+
+
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+  .box4 {height: 110vh;}
+  .page {height: 120vh;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .box3 {height: 85vh}
+  .page3 {height: 95vh}
+}
+
+@media screen and (max-width: 767px) and (min-width: 540px) {
+  .page1 {height: 100vh;}
+  .box3 {height: 140vh;}
+  .page3 {height: 150vh;}
+  .page5 {height: 95vh;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page1 {height: 100vh;}
+  .box3 {height: 140vh;}
+  .page3 {height: 150vh;}
+  .page5 {height: 95vh;}
+}

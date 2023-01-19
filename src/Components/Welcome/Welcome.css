@@ -1,0 +1,135 @@
+@media (min-width: 1000px) {
+  .ha {
+    animation-duration: 1s;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(175, 175, 175),
+    2px 2px 1px rgb(175, 175, 175),
+    3px 3px 1px rgb(175, 175, 175),
+    4px 4px 1px rgb(175, 175, 175),
+    5px 5px 1px rgb(175, 175, 175);
+  }
+
+  .h1a {
+    font-size: 5.4vh;
+  }
+
+  .h2a {
+      font-size: 4.85vh;
+  }
+
+  .h2b {
+    font-size: 4.3vh;
+  }
+
+  .devlogo {
+      background-image: url('./Media/Logo.png');
+      background-color: white;
+      background-position: center;
+      border-radius: 25px;
+      height: 21.6vh;
+      width: 21.6vh;
+      margin: auto;
+      margin-top: 5vh;
+      background-size: cover;
+      animation-duration: 1s;
+      filter: grayscale(1);
+      box-shadow: 0px 0px 20px white;
+  }
+
+  .btn {
+    width: 18vw;
+    height: 10.6vh;
+    margin-left: 1.4vw;
+    font-size: 2.6vh;
+    font-weight: 1000;
+    animation-duration: 1s;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+
+  .btn:hover {
+    background: rgb(150, 150, 150);
+  }
+
+  .lang {
+    float: right;
+    animation-duration: 1s;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ha {
+    animation-duration: 1s;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(175, 175, 175),
+    2px 2px 1px rgb(175, 175, 175),
+    3px 3px 1px rgb(175, 175, 175),
+    4px 4px 1px rgb(175, 175, 175),
+    5px 5px 1px rgb(175, 175, 175);
+  }
+
+  .h1a {
+    margin-top: 4vh;
+    font-size: 3vh;
+  }
+
+  .h2a {
+      font-size: 2.75vh;
+  }
+
+  .h2b {
+    font-size: 2.5vh;
+  }
+
+  .devlogo {
+      background-image: url('./Media/Logo.png');
+      background-color: white;
+      background-position: center;
+      border-radius: 15px;
+      height: 13vh;
+      width: 13vh;
+      margin: auto;
+      margin-top: 4.5vh;
+      background-size: cover;
+      animation-duration: 1s;
+      filter: grayscale(1);
+      box-shadow: 0px 0px 20px white;
+  }
+
+  .btn {
+    width: 50vw;
+    height: 8vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    font-weight: 800;
+    animation-duration: 1s;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+  }
+
+  .btn:hover {
+    background: rgb(150, 150, 150);
+  }
+
+  .lang {
+    float: right;
+    animation-duration: 1s;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 540px) {
+  .h1a {
+    margin-top: 5vh;
+    font-size: 3.5vh;
+  }
+
+  .h2a {
+      font-size: 3.25vh;
+  }
+  
+  .h2b {
+    font-size: 3vh;
+  }
+}
+
+

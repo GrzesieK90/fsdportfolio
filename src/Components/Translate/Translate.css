@@ -1,0 +1,67 @@
+@media (min-width: 1000px) {
+  .lngBtn {
+    width: 4vw;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 1px rgb(175, 175, 175),
+    2px 2px 1px rgb(175, 175, 175),
+    3px 3px 1px rgb(175, 175, 175),
+    4px 4px 1px rgb(175, 175, 175),
+    5px 5px 1px rgb(175, 175, 175);
+    position: relative;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .lngBtn:hover {
+    background: rgb(150, 150, 150);
+    box-shadow: 1px 1px 1px rgb(99, 99, 99),
+    2px 2px 1px rgb(99, 99, 99),
+    3px 3px 1px rgb(99, 99, 99);
+    right: -2px;
+    top: 2px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .lngBtn {
+    width: 12vw;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 1.5vh;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 1px rgb(175, 175, 175),
+    2px 2px 1px rgb(175, 175, 175),
+    3px 3px 1px rgb(175, 175, 175),
+    4px 4px 1px rgb(175, 175, 175),
+    5px 5px 1px rgb(175, 175, 175);
+    right: 0;
+    top: 0;
+    cursor: pointer;
+  }
+
+  .lngBtn:hover {
+    background: rgb(150, 150, 150);
+    box-shadow: 1px 1px 1px rgb(99, 99, 99),
+    2px 2px 1px rgb(99, 99, 99),
+    3px 3px 1px rgb(99, 99, 99);
+    right: -2px;
+    top: 2px;
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1000px) {
+  .lngBtn {
+    width: 8vw;
+  }
+}

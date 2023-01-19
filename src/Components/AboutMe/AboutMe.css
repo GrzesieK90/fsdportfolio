@@ -1,0 +1,62 @@
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 4vh;
+        text-shadow: 5px 5px 1px black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        margin-left: 70px;
+        text-shadow: 4px 4px 3px black;
+        font-size: 1.7vh;
+    } 
+
+    #photo {
+        height: 60vh;
+        float: right;
+        margin: 12vh;
+        animation-duration: 2s;
+        border: 3px solid rgb(100, 100, 100);
+        border-radius: 50px;
+        box-shadow: 0px 0px 20px black,
+        0px 0px 40px black,
+        0px 0px 60px black,
+        0px 0px 80px black,
+        0px 0px 100px black;
+    }
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 2.5vh;
+        text-shadow: 5px 5px 1px black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    h3 {
+        margin-left: 0px;
+        text-shadow: 2px 2px 2px black;
+        font-size: 1.5vh;
+    } 
+
+    #photo {
+        height: 40vh;
+        animation-duration: 2s;
+        border: 3px solid rgb(100, 100, 100);
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px black,
+        0px 0px 40px black,
+        0px 0px 60px black,
+        0px 0px 80px black,
+        0px 0px 100px black;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 540px) {
+    #photo {
+    float: right;
+    margin: 1vh;
+    }
+}

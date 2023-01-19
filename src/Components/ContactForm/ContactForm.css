@@ -1,0 +1,127 @@
+@media (min-width: 1024px) {
+  .hire {
+    margin-top: 0px;
+    font-size: 5vh;
+    font-weight: 800;
+    text-shadow: 5px 5px 1px gray;
+  }
+
+  .group {
+    float: right;
+  }
+
+  .name {
+    margin-top: 3vh;
+  }
+
+  .data {
+    border-radius: 10px;
+    border: 3px solid rgb(100, 100, 100);
+    box-shadow: 0px 0px 100px white;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    width: 30vw;
+    height: 3vh;
+  }
+
+  .area{
+    width: 30vw;
+    height: 20vh;
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    box-shadow: 0px 0px 120px white;
+    margin-top: 5vh;
+    margin-right: 2vw;
+    font-size: 2vh;
+  }
+
+  .button {
+    height: 5vh;
+    width: 10vw;
+    background: rgb(125, 125, 125);
+    color: white;
+    font-weight: 600;
+    font-size: 2vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+  }
+
+  .button:hover {
+    background: green;
+  }
+
+  .map {
+    margin-top: 3vh;
+    margin-left: 5vw;
+    float: left;
+    height: 40vh;
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    filter: grayscale(1);
+  }
+
+  .map:hover {
+    filter: grayscale(0);
+  }
+
+  .h1c {
+    text-shadow: 5px 5px 1px gray;
+  }
+
+  .texts {
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 700;
+    margin: 1vh;
+    text-shadow: 1px 1px 1px rgb(200, 200, 200),
+    2px 2px 1px rgb(200, 200, 200),
+    3px 3px 1px rgb(200, 200, 200),
+    4px 4px 1px rgb(200, 200, 200),
+    5px 5px 1px rgb(200, 200, 200);
+  }
+
+  .texts1 {
+    margin-top: 28vh;
+  }
+}
+
+@media (max-width: 280px) {
+  .name {width: 75vw;}
+  .data {width: 75vw;}
+  .area {margin-top: 3vh;width: 76vw; height: 15vh;}
+  .button {margin-top: 3vh; width: 70vw; height: 5vh;}
+  .map {
+    margin-top: 5vh;
+    width: 75vw;
+  }
+  .h1c {color: rgba(1, 1, 1, .0);}
+ 
+}
+
+@media screen and (min-width: 281px) and (max-width: 539px) {
+  .hire {font-size: 3vh; font-weight: 800;}
+  .name {width: 75vw;}
+  .data {width: 75vw;}
+  .area {margin-top: 3vh;width: 76vw; height: 15vh;}
+  .button {margin-top: 3vh; width: 70vw; height: 5vh;}
+  .map {
+    margin-top: 5vh;
+    width: 75vw;
+  }
+  .h1c {margin-top: 2vh;}
+ 
+}
+
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+  .hire {font-size: 3vh; font-weight: 800;}
+  .name {width: 50vw;}
+  .data {width: 50vw;}
+  .area {margin-top: 3vh;width: 51vw; height: 10vh;}
+  .button {margin-top: 3vh; width: 40vw; height: 5vh;}
+  .map {
+    margin-top: 1.5vh;
+    width: 75vw;
+  }
+  .h1c {margin-top: 1.5vh;}
+ 
+}
