@@ -15,7 +15,7 @@
 
   .appl {
     margin: 0.5vw;
-    height: 350px;
+    height: 42vh;
     width: 300px;
     filter: grayscale(1);
     background: rgba(255, 255, 255, .2);

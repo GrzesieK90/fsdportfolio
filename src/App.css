@@ -65,9 +65,13 @@
 
   .box1 {background: rgba(0, 0, 0, .5); margin-top: 7vh}
   .box2 {background: rgb(255, 255, 255, .5); margin-top: 2vh; height: 90vh}
-  .box3 {background: rgba(0, 0, 0, .5); margin-top: 2vh; height: 90vh;}
-  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh; height: 90vh;}
+  .box3 {background: rgba(0, 0, 0, .5); margin-top: 2vh; height: 95vh;}
+  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh; height: 85vh;}
   .box5 {background: rgba(0, 0, 0, .5)}
+}
+
+.page3 {
+height: 105vh;
 }
 
 @media (max-width: 1280px) {
