@@ -46,6 +46,8 @@ i18n
           cfb1: "Thank you for contacting me!",
           cfb2: "I will be in touch with you soon!",
           cfb3: "Send a message",
+          int1: "Your name",
+          int2: "Your message",
         }
       },
       es: {
@@ -83,6 +85,8 @@ i18n
           cfb1: "Gracias por ponerse en contacto conmigo!",
           cfb2: "En breve me pondré en contacto con usted!",
           cfb3: "Enviar mensaje",
+          int1: "Tu nombre",
+          int2: "Tu mensaje",
         }
       },
       pl: {
@@ -120,6 +124,8 @@ i18n
           cfb1: "Dziękuję że się ze mną skontaktowałeś!",
           cfb2: "Wkrótce się z Tobą skontaktuję!",
           cfb3: "Wyślij wiadomość",
+          int1: "Twoja nazwa",
+          int2: "Twoja wiadomość",
         }
       }
     }

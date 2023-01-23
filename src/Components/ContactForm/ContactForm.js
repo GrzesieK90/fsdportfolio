@@ -46,13 +46,13 @@ const ContactForm = () => {
         <div className="group">
           <h1 className="h1c">{t("cf3")}</h1>
           <div>
-            <input className="holder data name" type="text" placeholder="Your name" name="name" required />
+            <input className="holder data name" type="text" placeholder={t("int1")} name="name" required />
           </div>
           <div>
             <input className="holder data email" type="email" placeholder="Email" name="email" required />
           </div>
           <div>
-            <textarea className="holder area" placeholder="Your message" name="message" required />
+            <textarea className="holder area" placeholder={t("int2")} name="message" required />
           </div>
           <div>
             <button className="holder button btnHow" type="submit">{t("cfb3")}</button>

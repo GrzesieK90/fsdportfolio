@@ -14,15 +14,20 @@
   }
 
   .appl {
-    margin: 0.5vw;
-    height: 42vh;
-    width: 300px;
+    margin: 1vw;
+    height: 40vh;
+    width: 16vw;
     filter: grayscale(1);
     background: rgba(255, 255, 255, .2);
   }
 
   .appl:hover {
     filter: grayscale(0);
+  }
+
+  .imgA {
+    height: 20vh;
+    width: 16vw;
   }
 
   h4 {
@@ -55,6 +60,7 @@
 
   .imgA {
     height: 11vh;
+    width: 18vw;
   }
 
   .appl:hover {
@@ -76,20 +82,22 @@
 
   .imgA {
     height: 10vh;
+    width: 35vw;
   }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 541px) {
+@media screen and (max-width: 539px) and (min-width: 281px) {
   .appl {
-    height: 36vh;
-    width: 18vw;
+    height: 30vh;
+    width: 35vw;
   }
   
   .imgA {
-    height: 20.5vh;
+    height: 13.5vh;
+    width: 35vw;
   }
   h4 {
-    font-size: 1.7vh;
+    font-size: 1.5vh;
   }
 }
 
@@ -101,9 +109,10 @@
   }
 
   .imgA {
-    height: 14vh;
+    height: 16vh;
+    width: 35vw;
   }
   h4 {
-    font-size: 1.7vh;
+    font-size: 1.6vh;
   }
 }

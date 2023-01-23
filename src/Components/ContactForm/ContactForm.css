@@ -54,7 +54,8 @@
     margin-top: 3vh;
     margin-left: 5vw;
     float: left;
-    height: 40vh;
+    height: 50vh;
+    width: 40vw;
     border: 3px solid rgb(100, 100, 100);
     border-radius: 10px;
     filter: grayscale(1);
@@ -120,7 +121,8 @@
   .button {margin-top: 3vh; width: 40vw; height: 5vh;}
   .map {
     margin-top: 1.5vh;
-    width: 75vw;
+    height: 35vh;
+    width: 50vw;
   }
   .h1c {margin-top: 1.5vh;}
  

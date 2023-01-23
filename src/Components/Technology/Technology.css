@@ -4,7 +4,8 @@
     }
 
     .logo {
-        padding: 10px;
+        margin: 1vw;
+        height: 14vh;
         stop-opacity: inherit;
     }
 
@@ -26,7 +27,8 @@
     }
 
     .h1t {
-        margin-top: 5vh;
+        margin-top: 2vw;
+        font-size: 1.8vw;
     }
 
     .t1 {
@@ -91,7 +93,8 @@
     }
 
     .logo {
-        height: 12vh;
+        height: 10vh;
+        margin: 1vw;
     }
 
     .skills {
@@ -100,7 +103,8 @@
     }
 
     .h1t {
-        margin-bottom: 10px;
+        margin-bottom: 0.75vh;
+        font-size: 4vw;
     }
 
     .skills {
@@ -116,7 +120,8 @@
     }
 
     .logo {
-        height: 14vh;
+        height: 12vh;
+        margin: 2vw;
     }
 
     .skills {

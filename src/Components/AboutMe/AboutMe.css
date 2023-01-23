@@ -1,6 +1,6 @@
 @media (min-width: 1000px) {
     h1 {
-        font-size: 4vh;
+        font-size: 1.7vw;
         text-shadow: 5px 5px 1px black;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -13,9 +13,9 @@
     } 
 
     #photo {
-        height: 60vh;
+        height: 30vw;
         float: right;
-        margin: 12vh;
+        margin: 4vw;
         animation-duration: 2s;
         border: 3px solid rgb(100, 100, 100);
         border-radius: 50px;
@@ -57,6 +57,7 @@
 @media screen and (max-width: 1000px) and (min-width: 540px) {
     #photo {
     float: right;
+    height: 50vw;
     margin: 1vh;
     }
 }
