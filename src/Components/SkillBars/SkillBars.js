@@ -19,12 +19,16 @@ const skills = [
   { type: 'NPM', level: 70 },
   { type: 'Redux', level: 60 },
   { type: 'Postgres', level: 60 },
-  { type: 'NodeJS', level: 60 }
+  { type: 'NodeJS', level: 60 },
+  { type: 'VisualStudio', level: 75 },
+  { type: 'C', level: 55 },
+  { type: 'C++', level: 50 },
+  { type: 'Visual C#', level: 50 }
 ];
 
 const Skillbars = () => {
   return (
-    <SkillBar skills={skills} barBackground={'gray'} colors={colors} height={'4vh'}/>
+    <SkillBar skills={skills} barBackground={'gray'} colors={colors} height={'3vh'}/>
   )
 }
 

@@ -150,8 +150,13 @@ height: 105vh;
   .page2 {height: 185vh}
   .box3 {height: 135vh;}
   .page3 {height: 145vh;}
-  .box4 {height: 110vh;}
-  .page4 {height: 120vh;}
+  .box4 {height: 130vh;}
+  .page4 {height: 140vh;}
+}
+
+@media screen and (min-width: 281px) and (max-width: 539px) {
+  .box4 {height: 120vh;}
+  .page4 {height: 130vh;}
 }
 
 @media screen and (max-width: 1280px) and (min-width: 540px) {
@@ -162,12 +167,12 @@ height: 105vh;
 
 
 @media screen and (min-width: 540px) and (max-width: 1023px) {
-  .box4 {height: 110vh;}
-  .page {height: 120vh;}
+  .box4 {height: 125vh;}
+  .page4 {height: 135vh;}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .box3 {height: 85vh}
+  .box3 {height: 90vh}
   .page3 {height: 95vh}
 }
 

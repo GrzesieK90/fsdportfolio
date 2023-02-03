@@ -17,6 +17,10 @@ import Re from './Media/redux.png'
 import No from './Media/nodejs.png'
 import Pg from './Media/postgres.png'
 import Sas from './Media/sass.png'
+import C from './Media/C.png'
+import Cplus from './Media/C++.png'
+import CSharp from './Media/CSharp.png'
+import Visual from './Media/Visual.png'
 
 const AMS = AnimationOnScroll
 
@@ -65,6 +69,18 @@ const Technology = () => {
                         </AMS>
                         <AMS className="AMS" animateIn="animate__rollIn" delay={1250}>
                             <img className="logo" src={Sas} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={500}>
+                            <img className="logo" src={C} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={750}>
+                            <img className="logo" src={Cplus} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={1000}>
+                            <img className="logo" src={CSharp} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={1250}>
+                            <img className="logo" src={Visual} alt="React Logo" />
                         </AMS>
                     </div>
                     <div className="skills">
