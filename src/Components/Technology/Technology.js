@@ -21,6 +21,11 @@ import C from './Media/C.png'
 import Cplus from './Media/C++.png'
 import CSharp from './Media/CSharp.png'
 import Visual from './Media/Visual.png'
+import Ap from './Media/apache.png'
+import JV from './Media/java.png'
+import Mysql from './Media/mysql.png'
+import Ang from './Media/ang.png'
+
 
 const AMS = AnimationOnScroll
 
@@ -82,11 +87,25 @@ const Technology = () => {
                         <AMS className="AMS" animateIn="animate__rollIn" delay={1250}>
                             <img className="logo" src={Visual} alt="React Logo" />
                         </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={500}>
+                            <img className="logo" src={Ap} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={750}>
+                            <img className="logo" src={JV} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={1000}>
+                            <img className="logo" src={Mysql} alt="React Logo" />
+                        </AMS>
+                        <AMS className="AMS" animateIn="animate__rollIn" delay={1250}>
+                            <img className="logo" src={Ang} alt="React Logo" />
+                        </AMS>
                     </div>
                     <div className="skills">
                         <AMS animateIn="animate__zoomInDown" delay={1000}>
                             <h1 className="t1">{t("tech2")}</h1>
+                            <div className="sb">
                                 <Skillbars />
+                            </div>
                         </AMS>
                     </div>
                 </div>

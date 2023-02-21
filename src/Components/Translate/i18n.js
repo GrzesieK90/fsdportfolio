@@ -54,7 +54,7 @@ i18n
         translation: {
           tit1: "Hola! Me llamo Grzegorz, pero puedes llamarme Greg!",
           tit2: "Soy Full Stack Web Developer,",
-          tit3: "Y Alumni certificado por Udemy.",
+          tit3: "Y graduado certificado por Udemy.",
           button1:"Certificados",
           button2:"Curriculum Vitae",
           linked1: "https://grzesiek90.github.io/mycourses/postpage/cert.html",

@@ -5,8 +5,9 @@
 
     .logo {
         margin: 1vw;
-        height: 7vw;
+        height: 6vw;
         stop-opacity: inherit;
+        filter: drop-shadow(7px 7px 1px rgb(74, 74, 74))
     }
 
     .AMS {
@@ -16,6 +17,7 @@
 
     .icons {
         width: 38vw;
+        height: 15vh;
         float: left;
     }
 
@@ -24,6 +26,10 @@
         float: right;
         width: 38vw;
         margin-right: 2vw;
+    }
+
+    .sb {
+        filter: drop-shadow(7px 7px 1px rgb(74, 74, 74))
     }
 
     .h1t {
@@ -52,7 +58,13 @@
     }
 
     .h1t {
+        font-size: 4.4vw;
         margin-bottom: 10px;
+    }
+
+    .t1 {
+        font-size: 4.4vw;
+        margin-bottom: 1vh;
     }
 
     .skills {
@@ -68,7 +80,7 @@
     }
 
     .logo {
-        height: 8vh;
+        height: 6.5vh;
     }
 
     .skills {
@@ -78,6 +90,12 @@
 
     .h1t {
         margin-bottom: 10px;
+        font-size: 3vw;
+    }
+
+    .t1 {
+        margin-bottom: 2vh;
+        font-size: 3vw;
     }
 
     .skills {
@@ -93,7 +111,7 @@
     }
 
     .logo {
-        height: 10vh;
+        height: 8vh;
         margin: 1vw;
     }
 
@@ -104,12 +122,16 @@
 
     .h1t {
         margin-bottom: 0.75vh;
-        font-size: 4vw;
+        font-size: 2.5vw;
     }
 
     .skills {
         margin-top: 1vh;
         width: 80vw;
+    }
+    .t1 {
+        margin-bottom: 2vh;
+        font-size: 2.5vw;
     }
 }
 
@@ -120,7 +142,7 @@
     }
 
     .logo {
-        height: 10vh;
+        height: 9vh;
         margin: 2vw;
     }
 

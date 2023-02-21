@@ -9,13 +9,6 @@
     color: white;
   }
 
-  /* #container {
-    width: 99vw;
-    height: 5vh;
-    background: grey no-repeat fixed;
-    background-size: cover;
-  } */
-
   .btnHow {
     box-shadow: 1px 1px 1px rgb(175, 175, 175),
     2px 2px 1px rgb(175, 175, 175),
@@ -48,6 +41,9 @@
     width: 100vw;
   }
 
+  .page1 {margin-top: 5vh;}
+  .page4 {height: 115vh;}
+
   .boxU {
     margin: auto;
     text-align: center;
@@ -66,12 +62,13 @@
   .box1 {background: rgba(0, 0, 0, .5); margin-top: 7vh}
   .box2 {background: rgb(255, 255, 255, .5); margin-top: 2vh; height: 90vh}
   .box3 {background: rgba(0, 0, 0, .5); margin-top: 2vh; height: 95vh;}
-  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh; height: 85vh;}
+  .box4 {background: rgba(255, 255, 255, .5); margin-top: 2vh; height: 105vh;}
   .box5 {background: rgba(0, 0, 0, .5)}
 }
 
 .page3 {
-height: 105vh;
+  margin-top: 5vh;
+  height: 105vh;
 }
 
 @media (max-width: 1280px) {
@@ -79,13 +76,6 @@ height: 105vh;
     text-align: center;
     color: white;
   }
-
-  /* #container {
-    width: 99vw;
-    height: 5vh;
-    background: grey no-repeat fixed;
-    background-size: cover;
-  } */
 
   .btnHow {
     box-shadow: 1px 1px 1px rgb(175, 175, 175),
@@ -150,8 +140,8 @@ height: 105vh;
   .page2 {height: 185vh}
   .box3 {height: 135vh;}
   .page3 {height: 145vh;}
-  .box4 {height: 130vh;}
-  .page4 {height: 140vh;}
+  .box4 {height: 145vh;}
+  .page4 {height: 155vh;}
 }
 
 @media screen and (min-width: 281px) and (max-width: 539px) {
@@ -167,8 +157,8 @@ height: 105vh;
 
 
 @media screen and (min-width: 540px) and (max-width: 1023px) {
-  .box4 {height: 125vh;}
-  .page4 {height: 135vh;}
+  .box4 {height: 135vh;}
+  .page4 {height: 145vh;}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {

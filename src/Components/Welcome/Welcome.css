@@ -23,7 +23,6 @@
 
   .devlogo {
       background-image: url('./Media/Logo.png');
-      background-color: white;
       background-position: center;
       border-radius: 25px;
       height: 21.6vh;
@@ -32,8 +31,7 @@
       margin-top: 5vh;
       background-size: cover;
       animation-duration: 1s;
-      filter: grayscale(1);
-      box-shadow: 0px 0px 20px white;
+      filter: drop-shadow(5px 5px 5px white) grayscale(1);
   }
 
   .btn {
