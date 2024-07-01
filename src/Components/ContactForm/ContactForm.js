@@ -60,8 +60,8 @@ const ContactForm = () => {
         </div>
       </AMS>
       <AMS animateIn="animate__lightSpeedInLeft" delay={1000}>
-        <h1 className="h1c">{t("cf2")}</h1>
-      <a href="https://www.google.es/maps/place/C.+de+la+Salud,+10,+03390+Benej%C3%BAzar,+Alicante/@38.0783093,-0.8402478,17.25z/data=!4m5!3m4!1s0xd63a3ed0a594095:0xcb1e7957272a3d40!8m2!3d38.0792883!4d-0.8404608?hl=en"><img className="map btnHow" alt="map" src={map}></img></a>
+        <h1 className="h1c">{t("cf2")}<hr/>{t("cf4")}</h1>
+      <a href="https://www.google.com/maps/place/C.+Ram%C3%B3n+y+Cajal,+32,+03390+Benej%C3%BAzar,+Alicante/@38.0792768,-0.8395562,17z/data=!3m1!4b1!4m6!3m5!1s0xd63a3f31afeb0e1:0x3ac2ca28756ec958!8m2!3d38.0792726!4d-0.8369813!16s%2Fg%2F11c2cyjstc?entry=ttu"><img className="map btnHow" alt="map" src={map}></img></a>
       </AMS>
       </form>
         </div>
